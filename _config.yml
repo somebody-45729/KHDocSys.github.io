@@ -2,10 +2,7 @@ theme: jekyll-theme-minimal
 title: Kyunghoon Han CS-3353-01 Arch Installation Documentation
 description: Documentation of Arch Installtion
 
-Instructions:
-1) To start, one must download the Arch Linux through a type of medium (whether that medium be a USB drive and such) using the available wiki
-
-2) Once you have access and installed Arch into a virtual machine, make sure, if using VMWare Workstation, to head for the directory in order to boot into UEFI mode by inserting
-   fireware="efi" into line 2 of the .vmx file (recommend using Notepad and make sure to have the VMWare Workstation off while making said change).
-   
-3) After installation, we must now find a DE 
+Instruct1: 1) To start, one must download the Arch Linux through a type of medium (whether that medium be a USB drive and such) using the available wiki
+Instruct2: 2) Once you have access and installed Arch into a virtual machine, make sure, if using VMWare Workstation, to head for the directory in order to boot into UEFI mode by inserting
+fireware="efi" into line 2 of the .vmx file (recommend using Notepad and make sure to have the VMWare Workstation off while making said change).
+Instruct3: 3) After installation, we must now find a DE 
