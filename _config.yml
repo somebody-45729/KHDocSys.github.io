@@ -12,6 +12,7 @@ Instruct(3):    To first create the sda(s), we must run fdisk -l to find the nam
 Instruct(3):    the label type, should one intends to use GRUB to boot, then select GPT for this current example.
 
 Instruct(4): 4) Partition using fdisk gives 4 options in regards to labels: gpt, dos, sgi, sun; After deciding which one would work with the given bootinstaller, then you are
-Instruct(4):    given chance to create the necessary paritions with whatever free space is available to create said partitions with necessary types.
+Instruct(4):    given chance to create the necessary paritions with whatever free space is available to create said partitions with necessary types. The basis of the partitions
+Instruct(4):    will be on the basis of given instructions and/or based on the installation guide of Arch Linux.
    
 
