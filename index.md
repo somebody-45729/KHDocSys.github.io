@@ -4,7 +4,7 @@ description: Documentation of Arch Installtion
 
 # Note I put commands
 
-1. Download Arch from a preferred medium (I did through USB) # Other mediums are avilable through https://wiki.archlinux.org/title/Installation_guide
+1. Download Arch from a preferred medium (I did through USB) # Other mediums are avilable through: https://wiki.archlinux.org/title/Installation_guide
 
 2. Make sure, when using VMWare Workstation to access the directory to boot it into UEFI mode by inserting code firmware = "efi" into line 2 of .vmx file
 
