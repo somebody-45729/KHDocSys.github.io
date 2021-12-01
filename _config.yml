@@ -3,8 +3,8 @@ title: Kyunghoon Han CS-3353-01 Arch Installation Documentation
 description: Documentation of Arch Installtion
 
 # Note I put commands
-1. Download Arch from a preferred medium (I did through USB), Other mediums are avilable through https://wiki.archlinux.org/title/Installation_guide
-2. Make sure, when using VMWare Workstation to access the directory to boot it into UEFI mode by inserting code firmware = "efi" into line 2 of .vmx file
+1. Download Arch from a preferred medium [I did through USB], Other mediums are avilable through https://wiki.archlinux.org/title/Installation_guide
+2. Make sure, when using VMWare Workstation to access the directory to boot it into UEFI mode by inserting code firmware = efi into line 2 of .vmx file
 3. Now we must create sda(s) by entering code [fdisk -l] or [cfdisk /dev/sda] to begin the parition process # Selected GPT for later use for GRUB
 4. Once you are able to access the free space needed to create the partitions, create sda1 (512 MB) and sda2 (The rest)
    # Note, be sure to make the partitions 100% correct for your needed procedures. I completely messed up mine twice (I had sda1 - sda4 with unnecessary additions)
