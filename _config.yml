@@ -1,7 +1,6 @@
 theme: jekyll-theme-minimal
 description: Kyunghoon Han CS-3353-01 Arch Installation Documentation
 
-# Note I put commands
 1. Download Arch from a preferred medium [I did through USB]
 
 2. Make sure, when using VMWare Workstation to access the directory to boot it into UEFI mode by inserting code firmware = efi into line 2 of .vmx file
